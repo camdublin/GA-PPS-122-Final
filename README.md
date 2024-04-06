@@ -14,4 +14,14 @@ Also we will create visual representations to highlight popularity of clothing l
 
 Create code that will be able to generate an outfit using the provided dataset, `clothing_catalog.csv`. We have this database that provides various types of men's, women's, and unisex clothing. We will also be using data visualization to depict some of the trends amongst these items and pricing implications based on different scenarios 
 
-This will be iterating over multiple clothing items through calculating thir price in USD, converting the clothing based on type and then costruction a set of oufits depending on inputs on quantity and other qualities. We use for loops to iterate through the dataset and assign clothing types and then construct outfits using that logic
+## Technical Solution
+
+- Sourced clothing dataset from Kaggle.com
+- Created `categorize_clothing_type` function to organize clothing items into filtered categories
+- `generate_outfits` function is written to allow inputs for gender, brand, color, as well as the amount of oufits you'd like to produce
+- created two functions to show lowest and highest priced items with similar inputs
+- EDA to show the average costs of each clothing type for both men and women. as well as most popular brands and item types
+
+## Files
+ - `clothing_catalog.csv`
+ - Notebook with code
